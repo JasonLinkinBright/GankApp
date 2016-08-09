@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GankApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="save">save</string>
+    <string name="share">share</string>
+    <string name="transition">meizhi</string>
+    <string name="author_content">成为一个持续学习的程序员\n做一个让自己有成就感的产品</string>
+</resources>

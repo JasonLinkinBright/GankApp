@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.lsj.gankapp.ui.Fragment.MainFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.lsj.gankapp.ui.widget.MyRecyclerView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/item_meizhi"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</FrameLayout>
