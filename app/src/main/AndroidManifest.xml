@@ -29,7 +29,8 @@
         </activity>
   <!--      &lt;!&ndash;<activity android:name=".app.ToolBarActivity">&ndash;&gt;
         &lt;!&ndash;</activity>-->-->
-        <activity android:name=".ui.Activity.LiveShowActivity" />
+        <activity android:name=".ui.Activity.LiveShowActivity"
+            android:screenOrientation="landscape"/>
         <activity android:name=".ui.Activity.LinkActivity"/>
 
     </application>

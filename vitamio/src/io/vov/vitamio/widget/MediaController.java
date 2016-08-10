@@ -184,7 +184,7 @@ public class MediaController extends FrameLayout {
     initController(context);
     mFromXml = fromXml;
     mRoot = makeControllerView();//这个地方的FrameLayout.LayoutpParams是因为布局文件中要把MediaController的视图作为childView加到一个FrameLayout中去
-    FrameLayout.LayoutParams p = new FrameLayout.LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);//想怎样布局MediaController就尽情的发挥这个LayoutParams吧
+    FrameLayout.LayoutParams p = new FrameLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);//想怎样布局MediaController就尽情的发挥这个LayoutParams吧
     p.gravity = Gravity.BOTTOM;
     mRoot.setLayoutParams(p);
     ((FrameLayout)container).addView(mRoot);
